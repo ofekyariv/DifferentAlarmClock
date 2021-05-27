@@ -1,0 +1,319 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="GenreActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="73dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/checkBox"
+        android:layout_alignRight="@+id/linearLayout5"
+        android:layout_alignEnd="@+id/linearLayout5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Alarm Sounds"
+            android:id="@+id/textView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="73dp"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pop"
+            android:id="@+id/textView2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="73dp"
+        android:id="@+id/linearLayout3"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rock"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="73dp"
+        android:id="@+id/linearLayout4"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignStart="@+id/linearLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Electric"
+            android:id="@+id/textView4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="73dp"
+        android:id="@+id/linearLayout5"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_toRightOf="@+id/checkBox9"
+        android:layout_toEndOf="@+id/checkBox9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Hip-Hop"
+            android:id="@+id/textView5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignLeft="@+id/linearLayout5"
+        android:layout_alignStart="@+id/linearLayout5"
+        android:id="@+id/linearLayout7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Oldies"
+            android:id="@+id/textView6" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout6">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/checkBoxPop" />
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBoxAlarmSounds"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBoxRock"
+        android:layout_alignTop="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBox8"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/checkBoxAlarmSounds"
+        android:layout_alignStart="@+id/checkBoxAlarmSounds" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBox9"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBox10"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBoxElectric"
+        android:layout_gravity="right"
+        android:layout_alignBaseline="@+id/checkBox8"
+        android:layout_alignBottom="@+id/checkBox8"
+        android:layout_alignLeft="@+id/checkBox8"
+        android:layout_alignStart="@+id/checkBox8" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBoxHipHop"
+        android:layout_gravity="right"
+        android:layout_alignBaseline="@+id/checkBox9"
+        android:layout_alignBottom="@+id/checkBox9"
+        android:layout_alignLeft="@+id/checkBox8"
+        android:layout_alignStart="@+id/checkBox8" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBox5"
+        android:layout_gravity="right"
+        android:layout_alignBaseline="@+id/checkBox10"
+        android:layout_alignBottom="@+id/checkBox10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBoxOldies"
+        android:layout_gravity="right"
+        android:layout_alignBottom="@+id/checkBox10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:id="@+id/TryAlarmSounds"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/try_me"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:id="@+id/TryPop"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignLeft="@+id/TryAlarmSounds"
+        android:layout_alignStart="@+id/TryAlarmSounds"
+        android:background="@drawable/try_me" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:id="@+id/TryRock"
+        android:layout_alignTop="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/TryPop"
+        android:layout_alignStart="@+id/TryPop"
+        android:background="@drawable/try_me" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:id="@+id/TryElectric"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/TryRock"
+        android:layout_alignStart="@+id/TryRock"
+        android:background="@drawable/try_me" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:id="@+id/TryHipHop"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignLeft="@+id/TryElectric"
+        android:layout_alignStart="@+id/TryElectric"
+        android:background="@drawable/try_me" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:id="@+id/TryOldies"
+        android:layout_alignTop="@+id/linearLayout7"
+        android:layout_alignLeft="@+id/TryHipHop"
+        android:layout_alignStart="@+id/TryHipHop"
+        android:background="@drawable/try_me" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linearLayout7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:id="@+id/SetRandomAlarmSound"
+        android:background="@drawable/set_random_sound"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

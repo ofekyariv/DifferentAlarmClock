@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="Theme.MyAppTheme"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/alarm_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Wake up! its a beautiful morning!"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/alarm_screen_time"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:text="00 : 00"
+        android:textSize="85sp"
+        android:layout_below="@+id/alarm_screen_title"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/alarm_screen_name"
+        android:layout_width="280dp"
+        android:layout_height="180dp"
+        android:text="Alarm name"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/alarm_screen_time"
+        android:layout_alignStart="@+id/alarm_screen_time" />
+
+    <Button
+        android:id="@+id/alarm_screen_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="38sp"
+        android:background="@drawable/dismiss"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp" />
+
+</RelativeLayout>
